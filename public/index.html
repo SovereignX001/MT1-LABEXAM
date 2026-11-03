@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Task Management</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      color: #2c3e50;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #ecf0f1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Employee Task Management</h1>
+    <p>Served using the Node.js FS module</p>
+  </header>
+
+  <main>
+    <h2>Welcome</h2>
+    <p>This page is served from <code>public/index.html</code> when you visit <code>/home</code>.</p>
+
+    <h2>Available Routes (HTTP Server, port 3000)</h2>
+    <table>
+      <tr>
+        <th>Route</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>/</td>
+        <td>Welcome message</td>
+      </tr>
+      <tr>
+        <td>/tasks</td>
+        <td>List of employee tasks (JSON)</td>
+      </tr>
+      <tr>
+        <td>/about</td>
+        <td>Application information</td>
+      </tr>
+      <tr>
+        <td>/home</td>
+        <td>This page</td>
+      </tr>
+    </table>
+  </main>
+</body>
+</html>
